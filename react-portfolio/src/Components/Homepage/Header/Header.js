@@ -20,13 +20,13 @@ function Header() {
       <div className={`header-container ${shadow}`}>
         <div className="header-links">
           <div className="header-button">
-            <img src={Logo} className="git-logo"></img>
+            <img src={Logo} className="git-logo" alt="github button"></img>
           </div>
           <div className="header-button">
-            <img src={LinkedInLogo} className="linkedin-logo"></img>
+            <img src={LinkedInLogo} className="linkedin-logo" alt="linkedin button"></img>
           </div>
           <div className="header-button">
-            <img src={EmailLogo} className="email-logo"></img>
+            <img src={EmailLogo} className="email-logo" alt="email button"></img>
           </div>
         </div>
         <div className="darkmode-container">

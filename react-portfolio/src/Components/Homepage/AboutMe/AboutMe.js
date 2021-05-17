@@ -8,7 +8,7 @@ function AboutMe() {
       <div className="aboutme-container">
         <div className="bio-container">
             <div className="profilePic-container">
-                <img src={ProfilePic} className="profilePic"/>
+                <img src={ProfilePic} className="profilePic" alt="profile headshot"/>
                 <div className="profileText-container">
                   <div className="one-line">
                     <p>email: &nbsp;</p>

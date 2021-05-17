@@ -16,6 +16,12 @@
     align-items: center;
 }
 
+.header-button:hover{
+    height: 5vh;
+    width: 4vw;
+    border-bottom: 4px solid #DD120F;
+}
+
 .header-links{
     display: flex;
     flex-direction: row;

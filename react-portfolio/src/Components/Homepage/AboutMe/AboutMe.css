@@ -40,7 +40,7 @@
 
 .bio-subheader{
     width: 60%;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: rgba(0, 0, 0, .7);
 }
 
@@ -72,4 +72,10 @@
     height: 20%;
     font-size: 8vh;
     color: #DD120F;
+    animation: fadeinout 3s infinite;
 }
+
+@keyframes fadeinout {
+    0%,100% { opacity: 1; }
+    50% { opacity: .2; }
+  }
