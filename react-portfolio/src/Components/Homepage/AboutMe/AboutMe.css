@@ -1,0 +1,75 @@
+.aboutme-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.bio-container{
+    display: flex;
+    padding-top: 10vh;
+    height: 70vh;
+}
+
+.profilePic-container{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.profilePic{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+}
+
+.bioText-container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-top: 2%;
+}
+
+.bio-header{
+    font-size: 7vw;
+    padding-bottom: 4%;
+    color: #DD120F;
+}
+
+.bio-subheader{
+    width: 60%;
+    font-size: 2vw;
+    color: rgba(0, 0, 0, .7);
+}
+
+.profileText-container{
+    padding-left: 10%;
+    padding-top: 4%;
+    width: 40vh;
+    font-size: .75vmax;
+}
+
+.one-line{
+    display: flex;
+}
+
+.red{
+    color: #DD120F;
+    font-weight: bold;
+}
+
+.red-underline{
+    color: #DD120F;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.bottom-arrow{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    font-size: 8vh;
+    color: #DD120F;
+}
