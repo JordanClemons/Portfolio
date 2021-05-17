@@ -10,7 +10,9 @@
 
 .header-button{
     height: 4vh;
+    min-height: 100px;
     width: 3vw;
+    min-width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;

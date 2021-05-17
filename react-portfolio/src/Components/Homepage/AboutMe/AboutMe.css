@@ -11,7 +11,7 @@
 }
 
 .profilePic-container{
-    width: 35%;
+    width: 35vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,39 +20,41 @@
 }
 
 .profilePic{
-    width: 40vh;
-    height: 40vh;
+    width: 40vmin;
+    height: 40vmin;
     border-radius: 50%;
 }
 
 .bioText-container{
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 55vw;
     padding-top: 2%;
 }
 
 .bio-header{
-    font-size: 7vw;
-    padding-bottom: 4%;
+    font-size: 8vmin;
+    padding-bottom: 4vh;
     color: #DD120F;
 }
 
 .bio-subheader{
-    width: 60%;
-    font-size: 1.5vw;
+    min-width: 300px;
+    width: 70%;
+    font-size: 3vmin;
     color: rgba(0, 0, 0, .7);
 }
 
 .profileText-container{
     padding-left: 10%;
     padding-top: 4%;
-    width: 40vh;
-    font-size: .75vmax;
+    width: 40vw;
+    font-size: 1rem;
 }
 
 .one-line{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .red{
