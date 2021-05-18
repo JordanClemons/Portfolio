@@ -2,9 +2,9 @@ import HomePage from './Homepage/Homepage'
 
 function Container() {
   return (
-    <div>
-      <HomePage/>
-    </div>
+      <div>
+        <HomePage/>
+      </div>
   );
 }
 

@@ -6,7 +6,7 @@
 
 .bio-container{
     display: flex;
-    padding-top: 10vh;
+    padding-top: 15vh;
     height: 70vh;
 }
 
@@ -39,6 +39,7 @@
 }
 
 .bio-subheader{
+    padding-top: 2%;
     min-width: 300px;
     width: 70%;
     font-size: 3vmin;
@@ -48,7 +49,7 @@
 .profileText-container{
     padding-left: 10%;
     padding-top: 4%;
-    width: 40vw;
+    width: 40vmin;
     font-size: 1rem;
 }
 
@@ -74,10 +75,32 @@
     height: 20%;
     font-size: 8vh;
     color: #DD120F;
-    animation: fadeinout 3s infinite;
+    animation: moveupdown 2s  infinite;
+    transition: .3s;
+}
+
+
+.resume-text{
+    color: #DD120F;
+    padding-top: 10%;
+    font-weight: bold;
+    font-size: 2.5vmin;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 @keyframes fadeinout {
     0%,100% { opacity: 1; }
     50% { opacity: .2; }
+  }
+
+  @keyframes moveupdown {
+    0%, 100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-20px);
+      opacity: .2;
+    }
   }

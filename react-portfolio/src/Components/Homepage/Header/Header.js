@@ -19,15 +19,21 @@ function Header() {
     return (
       <div className={`header-container ${shadow}`}>
         <div className="header-links">
-          <div className="header-button">
-            <img src={Logo} className="git-logo" alt="github button"></img>
-          </div>
-          <div className="header-button">
-            <img src={LinkedInLogo} className="linkedin-logo" alt="linkedin button"></img>
-          </div>
-          <div className="header-button">
-            <img src={EmailLogo} className="email-logo" alt="email button"></img>
-          </div>
+          <a target="_blank" rel="noreferrer" href="https://github.com/JordanClemons">
+            <div className="header-button" >
+              <img src={Logo} className="git-logo" alt="github button"></img>
+            </div>
+          </a>
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jordan-clemons/">
+            <div className="header-button">
+              <img src={LinkedInLogo} className="linkedin-logo" alt="linkedin button"></img>
+            </div>
+          </a>
+          <a href={"mailto:devbyjordan@gmail.com"}>
+            <div className="header-button">
+              <img src={EmailLogo} className="email-logo" alt="email button"></img>
+            </div>
+          </a>
         </div>
         <div className="darkmode-container">
           <div>darkmode</div>
