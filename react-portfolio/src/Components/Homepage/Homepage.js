@@ -1,6 +1,7 @@
 import './Homepage.css'
 import Header from './Header/Header'
 import AboutMe from './AboutMe/AboutMe'
+import MyWork from './MyWork/MyWork'
 
 function HomePage() {
 
@@ -10,6 +11,7 @@ function HomePage() {
       <div className="home-container">
         <Header/>
         <AboutMe/>
+        <MyWork/>
         <div>hey</div>
         <div>hey</div>
         <div>hey</div>
