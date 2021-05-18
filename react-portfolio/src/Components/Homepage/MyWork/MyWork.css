@@ -1,15 +1,25 @@
 .mywork-container{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 92vh;
 }
 
 .mywork-content{
     display: flex;
     justify-content: center;
-    height: 80%;
+    height: 90%;
 }
 
 .mywork-dropdown{
-    width: 75%;
+    width:90%;
+}
+
+.mywork-bottom-arrow{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    font-size: 8vh;
+    color: #AD76F1;;
+    animation: moveupdown 2s  infinite;
+    transition: .3s;
 }
