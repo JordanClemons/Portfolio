@@ -1,0 +1,48 @@
+.card-container{
+    width: 95%;
+    height: 95%;
+    display: flex;
+}
+
+.card-picture{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text-container{
+    width: 40%;
+}
+
+.card-title{
+    font-weight: bold;
+    color: #AD76F1;
+    font-size: 4.2vmin;
+}
+
+.card-desc{
+    width: 90%;
+    font-size: 2vmin;
+}
+
+.card-learn-more{
+    padding-top: 4%;
+    font-weight: bold;
+    color: #AD76F1;
+    font-size: 2vmin;
+    display: flex;
+    flex-direction: row;
+}
+
+.Preferify{
+    width: 95%;
+}
+
+.Calendarify{
+    width: 95%;
+}
+
+.tic-tac-toe{
+    width: 90%;
+}

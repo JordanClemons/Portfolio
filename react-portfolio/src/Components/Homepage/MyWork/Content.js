@@ -2,6 +2,7 @@ import './Content.css'
 import {useState, useEffect} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight} from '@fortawesome/free-solid-svg-icons'
+import Card from './Card'
 
 function Content({array}) {
 
@@ -11,6 +12,15 @@ function Content({array}) {
     useEffect(() => {
         setCurr(0)
       }, [array]);
+
+    const AUTOSCROLL = 5000;
+    useEffect(() => {
+    const interval = setInterval(() => {
+        goRight();
+    }, AUTOSCROLL );
+    
+    return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
+    },)
 
     const goLeft = () =>{
         setDir('left')
@@ -32,12 +42,13 @@ function Content({array}) {
         }
     }
 
+
     return (
         <div className="main-content">
             <div className="content-container">
                 <div className="content-arrow" onClick={() => goLeft()}><FontAwesomeIcon icon={faChevronLeft}/></div>
-                    <div key={array[curr]} className={dir === 'left' ? 'moveInLeft' : 'moveInRight'} draggable="true">
-                        {array[curr]}
+                    <div key={array[curr]} className={dir === 'left' ? 'moveInLeft' : 'moveInRight'}>
+                        <Card title={array[curr][0]} desc={array[curr][1]} img={array[curr][2]}/>
                     </div>
                 <div className="content-arrow" onClick={() => goRight()}><FontAwesomeIcon icon={faChevronRight}/></div>
             </div>

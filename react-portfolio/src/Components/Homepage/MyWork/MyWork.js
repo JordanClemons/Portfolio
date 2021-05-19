@@ -1,14 +1,15 @@
 import './MyWork.css'
 import {useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronDown, faChevronCircleRight} from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown} from '@fortawesome/free-solid-svg-icons'
 import Dropdown from './Dropdown'
 import Content from './Content'
+
+import {projects} from './Strings'
 
 function MyWork() {
 
     const [value, setValue] = useState('Projects')
-    const projects = ['Preferify', 'Tic-Tac-Toe', 'Calendarify']
     const education = ['Degree', 'Courses']
 
     return (

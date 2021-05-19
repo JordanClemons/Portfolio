@@ -4,13 +4,14 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 1%;
+    width: 100%;
 }
 
 .content-container{
     height: 65vh;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
 }
 
 .content-arrow{
@@ -31,8 +32,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    border: 3px solid #AD76F1;
-    box-shadow: 5px 5px 5px black;
+    /* border: 3px solid #AD76F1; */
+    /* box-shadow: 5px 5px 5px black; */
     animation: moveleft .2s forwards ;
 }
 
@@ -44,8 +45,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    border: 3px solid #AD76F1;
-    box-shadow: 5px 5px 5px black;
+    /* border: 3px solid #AD76F1; */
+    /* box-shadow: 5px 5px 5px black; */
     animation: moveright .2s forwards ;
 }
 
