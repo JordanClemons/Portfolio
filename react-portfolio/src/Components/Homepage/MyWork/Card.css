@@ -2,6 +2,8 @@
     width: 95%;
     height: 95%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-picture{
@@ -18,7 +20,7 @@
 .card-title{
     font-weight: bold;
     color: #AD76F1;
-    font-size: 4.2vmin;
+    font-size: 2.2vw;
 }
 
 .card-desc{
@@ -33,6 +35,7 @@
     font-size: 2vmin;
     display: flex;
     flex-direction: row;
+    cursor: default;
 }
 
 .Preferify{
@@ -40,9 +43,17 @@
 }
 
 .Calendarify{
-    width: 95%;
+    width: 75%;
 }
 
 .tic-tac-toe{
-    width: 90%;
+    width: 75%;
+}
+
+.web-server{
+    width: 50%;
+}
+
+.interpreter{
+    width: 55%;
 }

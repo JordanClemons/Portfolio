@@ -8,7 +8,7 @@
 }
 
 .content-container{
-    height: 65vh;
+    height: 50vh;
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -27,7 +27,7 @@
 .moveInLeft{
     background-color: white;
     width: 80%;
-    height: 95%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,7 @@
 .moveInRight{
     background-color: white;
     width: 80%;
-    height: 90%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

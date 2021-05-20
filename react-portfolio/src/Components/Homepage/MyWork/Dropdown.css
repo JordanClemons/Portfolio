@@ -16,7 +16,7 @@
     align-items: center;
     border-radius: 30px;
     width: 25%;
-    border: 7px solid #AD76F1;
+    border: .5vmin solid #AD76F1;
     transition: .2s;
 }
 
@@ -38,8 +38,9 @@
 
 .dropdown-item{
     margin-top: 1%;
+    margin-left: 2%;
     background-color: white;
-    width: 25%;
+    width: 20%;
     height: 25%;
     display: flex;
     align-items: center;
@@ -57,7 +58,8 @@
 .hide-item{
     animation: movein .2s  forwards;
     background-color: white;
-    width: 25%;
+    margin-left: 2%;
+    width: 20%;
     height: 25%;
     display: flex;
     align-items: center;

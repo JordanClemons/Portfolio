@@ -1,0 +1,120 @@
+.degree-wrapper{
+    width: 100%;
+    display: flex;
+}
+
+.ub-logo-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ub-logo{
+    width: 90%;
+}
+
+.degree-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.degree-school{
+    font-weight: bold;
+    color: #AD76F1;
+    font-size: 4vmin;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.degree-degree{
+    font-size: 3vmin;
+    color: rgba(0, 0, 0, .8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10%;
+}
+
+.degree-gpa{
+    font-size: 2vmin;
+    color: rgba(0, 0, 0, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 8%;
+}
+
+.degree-deans-list{
+    font-size: 2vmin;
+    color: rgba(0, 0, 0, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 8%;
+}
+
+.courses-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-title-container{
+    font-weight: bold;
+    color: #AD76F1;
+    font-size: 4vmin;
+}
+
+.courses-courses-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 70%;
+}
+
+.course-course-container{
+    display: flex;
+    width: 35%;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0%;
+    height: 20%;
+}
+
+.course-title{
+    font-weight: bold;
+    font-size: 2vmin;
+    color: rgba(0, 0, 0, .6);
+}
+
+.course-grade{
+    color: #AD76F1;
+    font-weight: bold;
+    font-size: 2.5vmin;
+}
+
+.course-title-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.grad-icon{
+    background-color: #AD76F1;
+    width: 4vmin;
+    height: 4vmin;
+    font-size: 2vmin;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    color: white;
+    margin-right: 4%;
+}
