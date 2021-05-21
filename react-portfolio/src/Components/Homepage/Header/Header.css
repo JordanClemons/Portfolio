@@ -9,7 +9,7 @@
     z-index:3
 }
 
-.header-button{
+.header-button-home{
     height: 4vh;
     min-height: 60px;
     width: 3vw;
@@ -20,16 +20,51 @@
     transition: .1s;
 }
 
-.header-button:hover{
+.header-button-home:hover{
     height: 5vh;
     width: 4vw;
     border-bottom: 4px solid #DD120F;
+}
+
+.header-button-work{
+    height: 4vh;
+    min-height: 60px;
+    width: 3vw;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .1s;
+}
+
+.header-button-work:hover{
+    height: 5vh;
+    width: 4vw;
+    border-bottom: 4px solid #AD76F1;
+}
+
+.header-button-contact{
+    height: 4vh;
+    min-height: 60px;
+    width: 3vw;
+    min-width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .1s;
+}
+
+.header-button-contact:hover{
+    height: 5vh;
+    width: 4vw;
+    border-bottom: 4px solid #7BDA8F;
 }
 
 .header-links{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 8vw;
 }
 
 .shadow{
@@ -46,4 +81,117 @@
 
 .email-logo{
     width: 80%;
+}
+
+.header-title-section{
+    display: flex;
+    width: 33%;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-title-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    font-size: 1vw;
+    transition: .1s;
+    height: 4vh;
+    min-height: 60px;
+    cursor: default;
+}
+
+.header-title-home:hover{
+    font-weight: bold;
+    font-size: 1.25vw;
+    border-bottom: 4px solid #DD120F;
+    cursor: default;
+}
+
+.header-title-work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    font-size: 1vw;
+    transition: .1s;
+    height: 4vh;
+    min-height: 60px;
+    cursor: default;
+}
+
+.header-title-work:hover{
+    font-weight: bold;
+    font-size: 1.25vw;
+    border-bottom: 4px solid #AD76F1;
+    cursor: default;
+}
+
+.header-title-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    font-size: 1vw;
+    transition: .1s;
+    height: 4vh;
+    min-height: 60px;
+    cursor: default;
+}
+
+.header-title-contact:hover{
+    font-weight: bold;
+    font-size: 1.25vw;
+    border-bottom: 4px solid #7BDA8F;
+    cursor: default;
+}
+
+.focus-home{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    transition: .1s;
+    height: 4vh;
+    min-height: 60px;
+
+    font-weight: bold;
+    font-size: 1.25vw;
+    border-bottom: 4px solid #DD120F;
+    cursor: default;
+}
+
+.focus-work{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    transition: .1s;
+    height: 4vh;
+    min-height: 60px;
+
+    font-weight: bold;
+    font-size: 1.25vw;
+    border-bottom: 4px solid #AD76F1;
+    cursor: default;
+}
+
+.focus-contact{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    transition: .1s;
+    height: 4vh;
+    min-height: 60px;
+
+    font-weight: bold;
+    font-size: 1.25vw;
+    border-bottom: 4px solid #7BDA8F;
+    cursor: default;
 }

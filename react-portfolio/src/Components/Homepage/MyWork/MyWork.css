@@ -7,7 +7,7 @@
 .mywork-content{
     display: flex;
     justify-content: center;
-    height: 90%;
+    height: 70vh;
 }
 
 .mywork-dropdown{
