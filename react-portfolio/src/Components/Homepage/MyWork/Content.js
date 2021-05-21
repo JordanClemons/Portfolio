@@ -5,7 +5,7 @@ import { faChevronLeft, faChevronRight} from '@fortawesome/free-solid-svg-icons'
 import Card from './Card'
 import EducationCard from './EducationCard'
 
-function Content({array, type, setOpenModal}) {
+function Content({array, type, setOpenModal, setFocus}) {
 
     const [curr, setCurr] = useState(0)
     const [dir, setDir] = useState('left')
@@ -14,14 +14,14 @@ function Content({array, type, setOpenModal}) {
         setCurr(0)
       }, [array, type]);
 
-    // const AUTOSCROLL = 5000;
-    // useEffect(() => {
-    // const interval = setInterval(() => {
-    //     goRight();
-    // }, AUTOSCROLL );
+    const AUTOSCROLL = 5000;
+    useEffect(() => {
+    const interval = setInterval(() => {
+        goRight();
+    }, AUTOSCROLL );
     
-    // return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
-    // },)
+    return () => clearInterval(interval); // This represents the unmount function, in which you need to clear your interval to prevent memory leaks.
+    },)
 
     const goLeft = () =>{
         setDir('left')
@@ -51,7 +51,7 @@ function Content({array, type, setOpenModal}) {
                 <div className="content-arrow" onClick={() => goLeft()}><FontAwesomeIcon icon={faChevronLeft}/></div>
                     <div key={array[curr]} className={dir === 'left' ? 'moveInLeft' : 'moveInRight'}>
                         {array[0][0] !== 'Degree' ? 
-                            <Card title={array[curr][0]} desc={array[curr][1]} img={array[curr][2]} setOpenModal={setOpenModal}/>:
+                            <Card title={array[curr][0]} desc={array[curr][1]} img={array[curr][2]} setOpenModal={setOpenModal} setFocus={setFocus} index={curr}/>:
                             <EducationCard data={array[curr]}/>
                         }
                     </div>

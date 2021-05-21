@@ -1,10 +1,14 @@
 import './Card.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faChevronCircleRight} from '@fortawesome/free-solid-svg-icons'
+import {depth} from './Strings'
 
-function Card({title, desc, img, setOpenModal}) {
+function Card({title, desc, img, setOpenModal, setFocus, index}) {
 
-    
+    const displayModal = () =>{
+        setFocus(depth[index])
+        setOpenModal(true)
+    }
 
     return (
       <div className="card-container">
@@ -19,7 +23,7 @@ function Card({title, desc, img, setOpenModal}) {
             <div className="card-desc">
                 <p>{desc}</p>
             </div>
-            <div className="card-learn-more" onClick={() => setOpenModal(true)}>
+            <div className="card-learn-more" onClick={() => displayModal()}>
                 <p><FontAwesomeIcon icon={faChevronCircleRight} />&nbsp;&nbsp;Learn more.</p>
             </div>
         </div>

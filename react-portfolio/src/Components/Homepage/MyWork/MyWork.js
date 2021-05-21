@@ -6,13 +6,14 @@ import Dropdown from './Dropdown'
 import Content from './Content'
 import ModalContent from './ModalContent'
 
-import {projects, education} from './Strings'
+import {projects, education, depth} from './Strings'
 
 function MyWork() {
 
     const [value, setValue] = useState('Projects')
     const [array, setArray] = useState(projects)
-    const [openModal, setOpenModal] = useState(true)
+    const [openModal, setOpenModal] = useState(false)
+    const [focus, setFocus] = useState(depth[0])
 
     useEffect(() => {
       if(value === 'Projects'){
@@ -28,13 +29,14 @@ function MyWork() {
         <div className="mywork-content">
             <div className="mywork-dropdown">
                 <Dropdown value={value} setValue={setValue}/>
-                <Content array = {array} type={value} setOpenModal={setOpenModal}/>
-                <div className="mywork-bottom-arrow"><FontAwesomeIcon icon={faChevronDown} /></div>
+                <Content array = {array} type={value} setOpenModal={setOpenModal} setFocus={setFocus}/>
+                
             </div>
         </div>
+        <div className="mywork-bottom-arrow"><FontAwesomeIcon icon={faChevronDown} /></div>
         <div className={`modal-background modalvisible-${openModal}`}>
                 <div className="modal-bubble">
-                  <ModalContent setOpenModal={setOpenModal}/>
+                  <ModalContent setOpenModal={setOpenModal} focus={focus}/>
                 </div>
         </div>
       </div>

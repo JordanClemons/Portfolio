@@ -12,9 +12,6 @@
     align-items: center;
 }
 
-.modalcontent-close-button{
-}
-
 .modalcontent-content-header-container{
     display: flex;
     justify-content: center;
@@ -30,7 +27,11 @@
 }
 
 .test-image{
-    width: 35%;
+    width: 25%;
+}
+
+.tic-image{
+    width: 15%;
 }
 
 .modalcontent-content-header-title-container{
@@ -94,6 +95,10 @@
 
 .test-tech-image{
     width: 50%;
+}
+
+.react-tech-image{
+    width: 80%;
 }
 
 .modalcontent-body{
