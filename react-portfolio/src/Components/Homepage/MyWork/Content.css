@@ -22,6 +22,7 @@
     align-items: center;
     font-size: 8vmin;
     color: #AD76F1;
+    z-index: 1;
 }
 
 .moveInLeft{
@@ -76,7 +77,7 @@
 
 @keyframes moveleft {
     0%{
-      transform: translateX(-200px);
+      transform: translateX(-300px);
     }
     100% {
       transform: translateX(0);
@@ -85,7 +86,7 @@
 
   @keyframes moveright {
     0%{
-      transform: translateX(200px);
+      transform: translateX(300px);
     }
     100% {
       transform: translateX(0);

@@ -6,7 +6,7 @@ export const projects = [['Preferify', 'A React App using Spotify\'s official AP
 ]
 
 export const education = [['Degree', 'University at Buffalo', 'Computer Science BS 2021', 'GPA - ', 'Deans List'], 
-    ['Courses', [["Web Applications", "A"], ["Interface Design", "A"],["Data Models", "A"],["Robotics Algorithms", "N/A"],
+    ['Courses', [["Web Applications", "A"], ["Interface Design", "A"],["Data Models", "A"],["Robotics Algorithms", "A"],
     ["Operating Systems", "A-"],["Blockchain", "A"],["Software Engineering", "A"], ["Programming Languages", "B+"],
     ["Software Quality", "A"], ["Computation Theory", "B+"]
     ]]]

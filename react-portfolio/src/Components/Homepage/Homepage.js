@@ -2,6 +2,7 @@ import './Homepage.css'
 import Header from './Header/Header'
 import AboutMe from './AboutMe/AboutMe'
 import MyWork from './MyWork/MyWork'
+import ContactMe from './ContactMe/ContactMe'
 
 function HomePage() {
 
@@ -12,30 +13,7 @@ function HomePage() {
         <Header/>
         <AboutMe/>
         <MyWork/>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
-        <div>hey</div>
+        <ContactMe/>
       </div>
     );
   }

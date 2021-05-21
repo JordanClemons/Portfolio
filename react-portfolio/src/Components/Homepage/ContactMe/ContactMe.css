@@ -1,0 +1,66 @@
+.contactme-container{
+    display: flex;
+    flex-direction: column;
+    height: 92vh;
+}
+
+.contactme-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactme-title{
+    height: 40%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 4vmin;
+    color: #7BDA8F;
+}
+
+.contactme-button-container{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contactme-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50%;
+    width: 25vmax;
+    height: 25vmax;
+    font-size: 1.5vmax;
+    font-weight: bold;
+}
+
+.contactme-icon{
+    background-color: #7BDA8F;
+    color: white;
+    width: 13vmax;
+    height: 13vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 8vmax;
+    transition: .2s;
+}
+
+.contactme-icon:hover{
+    width: 16vmax;
+    height: 16vmax;
+}
+
+.contactme-link{
+    text-decoration: none;
+    color: black;
+}
