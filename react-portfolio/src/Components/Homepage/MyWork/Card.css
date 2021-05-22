@@ -11,28 +11,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 50%;
 }
 
 .card-text-container{
     width: 40%;
+    height: 50%;
 }
 
 .card-title{
     font-weight: bold;
     color: #AD76F1;
-    font-size: 2.2vw;
+    font-size: 2vmax;
 }
 
 .card-desc{
     width: 90%;
-    font-size: 2vmin;
+    font-size: 1.25vmax;
 }
 
 .card-learn-more{
     padding-top: 4%;
     font-weight: bold;
     color: #AD76F1;
-    font-size: 2vmin;
+    font-size: 1.25vmax;
     display: flex;
     flex-direction: row;
     cursor: default;
@@ -56,4 +58,11 @@
 
 .interpreter{
     width: 55%;
+}
+
+/* MOBILE */
+@media(max-width:425px){
+    .tic-tac-toe{
+        width: 100%;
+    }
 }

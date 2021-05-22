@@ -1,10 +1,11 @@
 .modalcontent-container{
     display: flex;
     flex-direction: column;
+    height: 90vh;
 }
 
 .modalcontent-close{
-    font-size: 6vmin;
+    font-size: 3vmax;
     width: 4%;
     margin-left: 2%;
     display: flex;
@@ -24,10 +25,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .test-image{
-    width: 25%;
+    width: 25vmax;
 }
 
 .tic-image{
@@ -35,13 +37,13 @@
 }
 
 .modalcontent-content-header-title-container{
-    width: 70vmax;
+    width: 70vw;
     display: flex;
     flex-direction: column;
 }
 
 .modalcontent-title{
-    font-size: 4vmin;
+    font-size: 2vmax;
     font-weight: bold;
 }
 
@@ -71,7 +73,7 @@
 
 .technology-section{
     display: flex;
-    height: 50%;
+    height: 70%;
 }
 
 .technology-container{
@@ -94,19 +96,46 @@
 }
 
 .test-tech-image{
-    width: 50%;
+    width: 45%;
 }
 
 .react-tech-image{
     width: 80%;
 }
 
+.web-server-image{
+    width: 15%;
+}
+
 .modalcontent-body{
-    width: 70vmax;
-    font-size: 2.5vmin;
+    width: 70vw;
+    font-size: 2vmax;
 }
 
 .tech-link{
     text-decoration: none;
     color: #AD76F1;
+}
+
+/* MOBILE */
+@media(max-width:425px){
+    .modalcontent-content-header-container{
+        width: 95vw;
+    }
+
+    .modalcontent-content-header-title-container{
+        width: 95vw;
+    }
+
+    .modalcontent-body{
+        width: 95vw;
+    }
+
+    .tic-image, .web-server-image{
+        width: 50%;
+    }
+
+    .test-image{
+        width: 75%;
+    }
 }

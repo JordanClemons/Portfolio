@@ -9,6 +9,7 @@ function Dropdown({value, setValue}) {
     const [open, setOpen] = useState(false)
 
     const openPopup = () =>{
+      console.log('here')
         setOpen(!open)
     }
 

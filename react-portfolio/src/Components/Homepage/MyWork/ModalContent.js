@@ -13,7 +13,8 @@ function ModalContent({setOpenModal, focus}) {
           </div>
           <div className="modalcontent-content-container">
               <div className="modalcontent-content-header-container">
-                <img src={process.env.PUBLIC_URL + focus[1]} className={focus[0] !== "Online Tic-Tac-Toe" ? 'test-image' : 'tic-image'} alt="product"/>
+                <img src={process.env.PUBLIC_URL + focus[1]} className={focus[0] === "Online Tic-Tac-Toe" ? 'tic-image' : 
+                focus[0] === "Web Server" || focus[0] === "Functional Interpreter" ? 'web-server-image' : 'test-image'} alt="product"/>
                 <div className="modalcontent-content-header-title-container">
                     <div className="modalcontent-title">
                         {focus[0]}

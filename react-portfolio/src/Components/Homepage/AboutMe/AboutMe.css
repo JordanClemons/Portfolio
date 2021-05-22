@@ -2,16 +2,18 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    justify-content: center;
 }
 
 .bio-container{
     display: flex;
     padding-top: 15vh;
     height: 70vh;
+    justify-content: space-between;
 }
 
 .profilePic-container{
-    width: 35vw;
+    width: 45vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,13 +24,12 @@
 .profilePic{
     width: 40vmin;
     height: 40vmin;
-    border-radius: 50%;
 }
 
 .bioText-container{
     display: flex;
     flex-direction: column;
-    width: 55vw;
+    width: 50vw;
     padding-top: 2%;
 }
 
@@ -40,7 +41,6 @@
 
 .bio-subheader{
     padding-top: 2%;
-    min-width: 300px;
     width: 70%;
     font-size: 3vmin;
     color: rgba(0, 0, 0, .7);
@@ -50,7 +50,7 @@
     padding-left: 10%;
     padding-top: 4%;
     width: 40vmin;
-    font-size: 1rem;
+    font-size: 1vmax;
 }
 
 .one-line{
@@ -101,5 +101,12 @@
     50% {
       transform: translateY(-20px);
       opacity: .2;
+    }
+  }
+
+  /* MOBILE */
+@media(max-width:1200px){
+    .bio-container{
+        padding-top: 25vh;
     }
   }

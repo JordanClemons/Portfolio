@@ -11,7 +11,7 @@
     height: 50vh;
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 80vw;
 }
 
 .content-arrow{
@@ -92,3 +92,11 @@
       transform: translateX(0);
     }
   }
+
+/* MOBILE */
+@media(max-width:800px){
+  .content-container{
+    width: 95vw;
+    height: 30vh;
+  }
+}

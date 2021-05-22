@@ -6,30 +6,30 @@
     height: 8vh;
     display: flex;
     justify-content: space-between;
-    z-index:3
+    z-index:3;
 }
 
 .header-button-home{
     height: 4vh;
     min-height: 60px;
-    width: 3vw;
-    min-width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: .1s;
+    width: 8vmin;
+    min-width: 50px;
 }
 
 .header-button-home:hover{
     height: 5vh;
-    width: 4vw;
+    width: 10vmin;
     border-bottom: 4px solid #DD120F;
 }
 
 .header-button-work{
     height: 4vh;
     min-height: 60px;
-    width: 3vw;
+    width: 8vmin;
     min-width: 50px;
     display: flex;
     justify-content: center;
@@ -39,14 +39,14 @@
 
 .header-button-work:hover{
     height: 5vh;
-    width: 4vw;
+    width: 10vmin;
     border-bottom: 4px solid #AD76F1;
 }
 
 .header-button-contact{
     height: 4vh;
     min-height: 60px;
-    width: 3vw;
+    width: 8vmin;
     min-width: 50px;
     display: flex;
     justify-content: center;
@@ -56,7 +56,7 @@
 
 .header-button-contact:hover{
     height: 5vh;
-    width: 4vw;
+    width: 10vmin;
     border-bottom: 4px solid #7BDA8F;
 }
 
@@ -64,7 +64,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 8vw;
 }
 
 .shadow{
@@ -85,7 +84,7 @@
 
 .header-title-section{
     display: flex;
-    width: 33%;
+    width: 45%;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
@@ -96,7 +95,7 @@
     justify-content: center;
     align-items: center;
     width: 30%;
-    font-size: 1vw;
+    font-size:calc(8px + 1vw);
     transition: .1s;
     height: 4vh;
     min-height: 60px;
@@ -105,7 +104,7 @@
 
 .header-title-home:hover{
     font-weight: bold;
-    font-size: 1.25vw;
+    font-size:calc(8px + 1.5vw);
     border-bottom: 4px solid #DD120F;
     cursor: default;
 }
@@ -115,7 +114,7 @@
     justify-content: center;
     align-items: center;
     width: 30%;
-    font-size: 1vw;
+    font-size:calc(8px + 1vw);
     transition: .1s;
     height: 4vh;
     min-height: 60px;
@@ -124,7 +123,7 @@
 
 .header-title-work:hover{
     font-weight: bold;
-    font-size: 1.25vw;
+    font-size:calc(8px + 1.5vw);
     border-bottom: 4px solid #AD76F1;
     cursor: default;
 }
@@ -134,7 +133,7 @@
     justify-content: center;
     align-items: center;
     width: 30%;
-    font-size: 1vw;
+    font-size:calc(8px + 1vw);
     transition: .1s;
     height: 4vh;
     min-height: 60px;
@@ -143,7 +142,7 @@
 
 .header-title-contact:hover{
     font-weight: bold;
-    font-size: 1.25vw;
+    font-size:calc(8px + 1.5vw);
     border-bottom: 4px solid #7BDA8F;
     cursor: default;
 }
@@ -159,7 +158,7 @@
     min-height: 60px;
 
     font-weight: bold;
-    font-size: 1.25vw;
+    font-size:calc(8px + 1.5vw);
     border-bottom: 4px solid #DD120F;
     cursor: default;
 }
@@ -175,7 +174,7 @@
     min-height: 60px;
 
     font-weight: bold;
-    font-size: 1.25vw;
+    font-size:calc(8px + 1.5vw);
     border-bottom: 4px solid #AD76F1;
     cursor: default;
 }
@@ -191,7 +190,19 @@
     min-height: 60px;
 
     font-weight: bold;
-    font-size: 1.25vw;
+    font-size:calc(8px + 1.5vw);
     border-bottom: 4px solid #7BDA8F;
     cursor: default;
 }
+
+/* MOBILE */
+@media(max-width:1200px){
+    .content-container{
+      width: 95vw;
+      height: 30vh;
+    }
+
+    .header-title-section{
+        width: 70%;
+    }
+  }

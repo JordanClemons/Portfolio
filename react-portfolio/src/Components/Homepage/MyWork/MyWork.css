@@ -6,7 +6,6 @@
 
 .mywork-content{
     display: flex;
-    justify-content: center;
     height: 70vh;
 }
 
@@ -15,6 +14,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .mywork-bottom-arrow{

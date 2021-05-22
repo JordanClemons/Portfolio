@@ -41,23 +41,6 @@ function Header() {
 
     return (
       <div className={`header-container ${shadow}`}>
-        <div className="header-links">
-          <a target="_blank" rel="noreferrer" href="https://github.com/JordanClemons">
-            <div className={`header-button-${focus}`}>
-              <img src={Logo} className="git-logo" alt="github button"></img>
-            </div>
-          </a>
-          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jordan-clemons/">
-            <div className={`header-button-${focus}`}>
-              <img src={LinkedInLogo} className="linkedin-logo" alt="linkedin button"></img>
-            </div>
-          </a>
-          <a href={"mailto:devbyjordan@gmail.com"}>
-            <div className={`header-button-${focus}`}>
-              <img src={EmailLogo} className="email-logo" alt="email button"></img>
-            </div>
-          </a>
-        </div>
         <div className="header-title-section">
           <div className={focus === 'home' ? 'focus-home' : 'header-title-home'} onClick={() => goToScroll('home')}>
             <p>Home</p>
@@ -69,9 +52,21 @@ function Header() {
             <p>Contact Me</p>
           </div>
         </div>
-        <div className="darkmode-container">
-          <div></div>
+        <div className="header-links">
+          <a target="_blank" rel="noreferrer" href="https://github.com/JordanClemons">
+            <div className={`header-button-${focus}`}>
+              <img src={Logo} className="git-logo" alt="github button"></img>
+            </div>
+          </a>
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jordan-clemons/">
+            <div className={`header-button-${focus}`}>
+              <img src={LinkedInLogo} className="linkedin-logo" alt="linkedin button"></img>
+            </div>
+          </a>
         </div>
+        {/* <div className="darkmode-container">
+          <div>dddd</div>
+        </div> */}
       </div>
     );
   }
