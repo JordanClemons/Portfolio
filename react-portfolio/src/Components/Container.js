@@ -1,8 +1,9 @@
 import HomePage from './Homepage/Homepage'
+import './Container.css'
 
 function Container() {
   return (
-      <div>
+      <div className="homepage">
         <HomePage/>
       </div>
   );

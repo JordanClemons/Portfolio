@@ -5,6 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown, faChevronCircleRight} from '@fortawesome/free-solid-svg-icons'
 
 function AboutMe() {
+
+  const goToScroll = () =>{
+    window.scrollTo({top: document.documentElement.scrollHeight / 3.25, behavior: 'smooth'})
+  }
+
     return (
       <div className="aboutme-container">
         <div className="bio-container">
@@ -30,7 +35,7 @@ function AboutMe() {
                 </a>
             </div>
         </div>
-        <div className="bottom-arrow"><FontAwesomeIcon icon={faChevronDown} /></div>
+        <div className="bottom-arrow" onClick={() => goToScroll()}><FontAwesomeIcon icon={faChevronDown} /></div>
       </div>
     );
   }

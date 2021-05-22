@@ -24,6 +24,10 @@ function MyWork() {
       }
     }, [value]);
 
+    const goToScroll = () =>{
+      window.scrollTo({top: document.documentElement.scrollHeight, behavior: 'smooth'})
+    }
+
     return (
       <div className="mywork-container">
         <div className="mywork-content">
@@ -33,7 +37,7 @@ function MyWork() {
                 
             </div>
         </div>
-        <div className="mywork-bottom-arrow"><FontAwesomeIcon icon={faChevronDown} /></div>
+        <div className="mywork-bottom-arrow" onClick={() => goToScroll()}><FontAwesomeIcon icon={faChevronDown} /></div>
         <div className={`modal-background modalvisible-${openModal}`}>
                 <div className="modal-bubble">
                   <ModalContent setOpenModal={setOpenModal} focus={focus}/>
