@@ -1,6 +1,6 @@
 import './AboutMe.css'
 import ProfilePic from '../../../Assets/profile-pic.png'
-import Resume from '../../../Assets/FakeResume.pdf'
+import Resume from '../../../Assets/Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronDown, faChevronCircleRight} from '@fortawesome/free-solid-svg-icons'
 
