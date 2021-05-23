@@ -2,8 +2,6 @@ import './Header.css'
 import {useState} from 'react'
 import Logo from '../../../Assets/github-logo.png'
 import LinkedInLogo from '../../../Assets/linkedin-logo.png'
-import EmailLogo from '../../../Assets/email-logo.png'
-import { education } from '../MyWork/Strings'
 import smoothscroll from 'smoothscroll-polyfill';
  
 // kick off the polyfill!
