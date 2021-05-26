@@ -5,7 +5,7 @@ export const projects = [['Preferify', 'A React App using Spotify\'s official AP
     ['Functional Interpreter', 'An interpreter build to handle basic logical expressions. Created with OCaml.', '/images/OCaml.png']
 ]
 
-export const education = [['Degree', 'University at Buffalo', 'Computer Science BS 2021', 'GPA - ', 'Deans List'], 
+export const education = [['Degree', 'University at Buffalo', 'Computer Science BS 2021', 'GPA ~ 3.4', 'Deans List'], 
     ['Courses', [["Web Applications", "A"], ["Interface Design", "A"],["Data Models", "A"],["Robotics Algorithms", "A"],
     ["Operating Systems", "A-"],["Blockchain", "A"],["Software Engineering", "A"], ["Programming Languages", "B+"],
     ["Software Quality", "A"], ["Computation Theory", "B+"]
